@@ -1,14 +1,14 @@
 function dijkstra(graph, sourceNode) {
     // distances holds the distances from any given node to the start node
-    const distances = {};
+    const distances = [];
     // unexplored holds all nodes yet to be traversed
-    const unexplored = {};
+    const unexplored = [];
 
     // using test code retrieved from fellow student Collin Davis's repository
 
     // for each node in the graph, initialize distances
     for(const node in graph) {
-        distances[node] = 0;
+        distances[node] = Infinity;
         unexplored[node] = true;
     }
 
@@ -26,6 +26,7 @@ function dijkstra(graph, sourceNode) {
             }
         }
         unexplored[closestNode] = false;
+        nextNode = closestNode;
     }
 
     return distances;
