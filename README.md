@@ -26,3 +26,4 @@ answer, including your reasoning, to this markdown file.
 
 ## Sources and Plagarism Statement
 Took test code from CollinDavis
+Based my understanding of the algorithm on the graphs from [GeeksforGeeks}(https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree) and the video from [SpanningTree] (https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree) 
