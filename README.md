@@ -27,3 +27,5 @@ answer, including your reasoning, to this markdown file.
 ## Sources and Plagarism Statement
 Took test code from CollinDavis
 Based my understanding of the algorithm on the graphs from [GeeksforGeeks}(https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree) and the video from [SpanningTree] (https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree) 
+
+Did ask ChatGPT to help me understand the format of the graph as given to the function by the test function. Was shown the basic layout of the input, nothing more.
