@@ -18,7 +18,7 @@ function dijkstra(graph, sourceNode) {
     while(unexplored.includes(true)) {
         let closestNode = null;
         for(let connectedNode in graph[nextNode]) {
-            if(closestNode === null || graph[nextNode][connectedNode] < nextNode[closestNode]){
+            if(closestNode === null || graph[nextNode][connectedNode] < graph[nextNode][closestNode]){
                 closestNode = connectedNode;
             }
             if(distances[nextNode] + graph[nextNode][connectedNode] < distances[connectedNode]) {
