@@ -18,15 +18,14 @@ function dijkstra(graph, sourceNode) {
             }
         });
 
-        if(closestNode === null) {break};
-        //if (closestNode === null || distances[closestNode] === Infinity) {break};
+        if (closestNode === null || distances[closestNode] === Infinity) {break};
 
         unexplored.delete(closestNode);
 
         // Update distances for neighbors
         for (const neighbor in graph[closestNode]) {
             const newDistance = distances[closestNode] + graph[closestNode][neighbor];
-            if (newDistance < distances[neighbor]) {
+            if (newDistance < distances[neighbor]|| distances[neighbor] === Infinity) {
                 distances[neighbor] = newDistance;
             }
         }
