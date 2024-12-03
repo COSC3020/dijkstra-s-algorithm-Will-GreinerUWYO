@@ -18,7 +18,8 @@ function dijkstra(graph, sourceNode) {
             }
         });
 
-        if (closestNode === null || distances[closestNode] === Infinity) {break};
+        if(closestNode === null) {break};
+        //if (closestNode === null || distances[closestNode] === Infinity) {break};
 
         unexplored.delete(closestNode);
 
