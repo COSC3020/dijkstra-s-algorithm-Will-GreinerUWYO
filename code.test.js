@@ -97,10 +97,7 @@ function transformGraph(graph) {
 for (let i = 0; i < graphs.length; i++) {
     const graph = transformGraph(graphs[i]);
     const startNode = startNodes[i];
-    const result = dijkstra(graph, startNode);
-
-    // Extract distances for comparison
-    const distances = result.distances;
+    const distances = dijkstra(graph, startNode);
 
     const expected = graphAnswer[i];
     const resultList = [];
