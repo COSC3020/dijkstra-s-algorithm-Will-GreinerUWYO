@@ -34,3 +34,5 @@ Based my understanding of the algorithm on the graphs from [GeeksforGeeks}(https
 Worked with Michael Stoll to find debug the error in the test code and help optimize my code.
 
 Did ask ChatGPT to help me understand the format of the graph as given to the function by the test function. Was shown the basic layout of the input, nothing more.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
