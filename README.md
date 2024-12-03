@@ -23,3 +23,16 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The algorithm checks each connected node, and for each node, must compare all connected nodes. 
+The main while loop runs V times, once for each node, then must compare all V distances each time, and then must look at all edges E.
+So the big $\Theta$ complexity of this implementation is $\Theta(V * V * E)$ or $\Theta(V^2E)$
+
+## Sources and Plagarism Statement
+Took test code from CollinDavis and tweaked one line so it worked with my implementation.
+Based my understanding of the algorithm on the graphs from [GeeksforGeeks}(https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree) and the video from [SpanningTree] (https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree) 
+Worked with Michael Stoll to find debug the error in the test code and help optimize my code.
+
+Did ask ChatGPT to help me understand the format of the graph as given to the function by the test function. Was shown the basic layout of the input, nothing more.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
