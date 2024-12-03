@@ -1,13 +1,12 @@
 function dijkstra(graph, sourceNode) {
-    const distances = [];
-    const unexplored = new Set(Object.keys(graph));
+    let distances = new Array (graph.length);
+    let unexplored = new Set(Object.keys(graph));
 
     for (const node in graph) {
         distances[node] = Infinity;
     }
-
+    
     distances[sourceNode] = 0;
-    let node = sourceNode;
     while (unexplored.size > 0) {
         let closestNode = null;
 
