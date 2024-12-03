@@ -7,7 +7,7 @@ function dijkstra(graph, sourceNode) {
     }
 
     distances[sourceNode] = 0;
-
+    let node = sourceNode;
     while (unexplored.size > 0) {
         let closestNode = null;
 
